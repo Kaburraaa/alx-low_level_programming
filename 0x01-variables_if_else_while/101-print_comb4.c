@@ -27,7 +27,7 @@ int main(void)
 								tens == '8')) /*adds commas and spaces*/
 					{
 						putchar(',');
-						puchar(' ');
+						putchar(' ');
 					}
 				}
 			}
