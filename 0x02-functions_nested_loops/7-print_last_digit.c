@@ -1,20 +1,19 @@
 #include "main.h"
 
 /**
- * print_last_digit - prints the last digit
- * @n: the number
- * Return: value of the last digit
+ * print_last_digit - prints the last dogot of an integer
+ * @a: number to compute last digit
+ * Return: last digit
  */
-int main(void)
+int print_last_digit(int a)
 {
-	int r;
+	int last_digit;
 
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
+	last_digit = a % 10;
+	if (last_digit < 0)
 	{
-		_putchar('0' + r);
-		_putchar('\n');
+		last_digit = last_digit * -1;
 	}
-	return (0);
+	_putchar(last_digit + '0');
+	return (last_digit);
 }
