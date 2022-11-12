@@ -4,7 +4,7 @@
  * _calloc - allocated memoria for nmemb elemn de zise bytes
  * @nmemb: number of element in the array
  * @size: bytes for each position in array
- * @Return: pointer void
+ * Return: pointer void
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
